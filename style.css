@@ -1,15 +1,69 @@
+/* Website Styles */
+* {
+  font-size: 100%;
+}
+
 body {
   background-color: pink;
-  color: purple;
+  color: RoyalBlue;
   font-family: 'roboto slab', arial;
+  font-size: 22px;
 }
 
 h1 {
-  color: fuchsia;
+  color: purple;
   font-family: cambria;
+  font-size: 80px;
+  line-height: 0.5;
+  text-align: left;
+}
+
+header h1 {
+  text-align: center;
 }
 
 h2 {
-  background-color: lilac;
+  background-color: fuchsia;
+  color: white;
+  font-size: 48px;
+  text-align: center;
+}
+
+h3 {
+  color: purple;
+  font-size: 59px;
+  line-height: 0;
+}
+
+h4 {
+  color: blue;
+  font-size: 40px;
+}
+
+h5 {
+  color: maroon;
+  font-size: 40px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: bold;
+  font-style: italic;
+}
+
+section ul li {
+  color: green;
+}
+
+footer {
   color: black;
+  font-weight: bold;
+}
+
+a {
+  color: bergundy;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
