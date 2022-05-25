@@ -1,6 +1,10 @@
 /* Website Styles */
 * {
   font-size: 100%;
+  margin: 0;
+  line-height: 1;
+  box-sizing: border-box;
+    /* border: 1px solid red; */
 }
 
 body {
@@ -8,6 +12,7 @@ body {
   color: RoyalBlue;
   font-family: 'roboto slab', arial;
   font-size: 22px;
+  margin: 50px;
 }
 
 h1 {
@@ -16,6 +21,7 @@ h1 {
   font-size: 80px;
   line-height: 0.5;
   text-align: left;
+  text-decoration: none;
 }
 
 header h1 {
@@ -23,8 +29,8 @@ header h1 {
 }
 
 h2 {
-  background-color: fuchsia;
-  color: white;
+  background-color: pink;
+  color: fuchsia;
   font-size: 48px;
   text-align: center;
 }
@@ -48,8 +54,12 @@ h5 {
 h1, h2, h3, h4, h5 {
   font-weight: bold;
   font-style: italic;
+  margin-bottom: 20px;
 }
 
+section {
+  width: 50%;
+}
 section ul li {
   color: green;
 }
@@ -66,4 +76,32 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+p {
+  margin: 15px 0;
+}
+
+ul, ol {
+  margin: 15px 0;
+}
+header, section, footer {
+  background-color: white;
+  margin: 30px;
+  padding: 30px;
+  border: 3px solid purple
+}
+ header {
+   border-bottom: 5px solid gray;
+ }
+
+ img {
+   height: 300px;
+   width: 100%;
+ }
+
+.title {
+  font-size: 66px;
+  text-decoration: underline;
+  color: blue;
 }
