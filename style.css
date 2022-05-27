@@ -13,7 +13,7 @@ body {
   background-repeat: repeat;
   color: white;
   font-family: 'roboto slab', arial;
-  font-size: 22px;
+  font-size: 25px;
   text-decoration: bold;
   margin: 50px;
 }
@@ -32,49 +32,65 @@ header h1 {
 }
 
 h2 {
-  color: fuchsia;
-  font-size: 48px;
+  color: purple;
+  font-size: 60px;
   text-align: center;
 }
 
 h3 {
   color: purple;
-  font-size: 59px;
+  font-size: 60px;
   text-align: center;
 }
 
 h4 {
-  color: blue;
-  font-size: 40px;
+  color: purple;
+  font-size: 60px;
+  text-align: center;
 }
 
 h5 {
-  color: maroon;
-  font-size: 40px;
+  color: purple;
+  font-size: 60px;
+  text-align: center;
 }
 
-h1, h2, h3, h4, h5 {
+h6 {
+  color: purple;
+  font-size: 60px;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
-  font-style: italic;
-  margin-bottom: 20px;
+  /* font-style: italic; */
+  margin: 10px 20px;
+  text-decoration: underline;
 }
 
 section {
-  width: 50%;
+  width: 95%;
 }
 section ul li {
-  color: green;
+  margin: 15px -15px;
+  color: white;
+  margin: 0 60px;
+}
+
+section ol {
+  margin: 0 475px;
 }
 
 footer {
-  color: black;
+  color: fuchsia;
   font-weight: bold;
   text-align: center;
 }
 
 a {
-  color: black;
-  text-decoration: none;
+  color: green;
+  text-decoration: bold;
+  text-align: right;
 }
 
 a:hover {
@@ -90,33 +106,39 @@ ul, ol {
 }
 header, section, footer {
   background-color: grey;
+  background-image: url(images/blackstar.webp);
   margin: 30px;
-  padding: 30px;
-  border: 3px solid hotpink;
+  padding: 20px;
+  border: 5px solid hotpink;
 }
  header {
-   border-bottom: 5px solid gray;
+   border-bottom: 5px solid hotpink;
  }
 
- /* img { */
-   height: 300px;
-   width: 100%;
- }
-
+img {
+  margin: 30px 365px;
+  size: 100%;
+}
 .title {
   font-size: 66px;
   text-decoration: underline;
-  color: blue;
+  color: royalblue;
 }
 
-.container {
+/* .container {
   max-width: 1000px;
   margin: 0 auto;
-}
+} */
 
 .banner {
-  height: 350px;
+  height: 300px;
   background-image: url(images/bannerremote.jpg);
   background-size: 100%;
   background-position: center;
+  border: 6px dotted hotpink;
+}
+
+.mermaid {
+  margin: 0 265px;
+  size: 100%;
 }
