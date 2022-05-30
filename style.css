@@ -4,7 +4,6 @@
   margin: 0;
   line-height: 1;
   box-sizing: border-box;
-    /* border: 1px solid red; */
 }
 
 body {
@@ -32,38 +31,37 @@ header h1 {
 }
 
 h2 {
-  color: purple;
+  color: skyblue;
   font-size: 60px;
   text-align: center;
 }
 
 h3 {
-  color: blue;
-  font-size: 60px;
+  color: teal;
+  font-size: 55px;
   text-align: center;
 }
 
 h4 {
-  color: purple;
-  font-size: 60px;
+  color: hotpink;
+  font-size: 55px;
   text-align: center;
 }
 
 h5 {
-  color: purple;
-  font-size: 60px;
+  color: hotpink;
+  font-size: 55px;
   text-align: center;
 }
 
 h6 {
-  color: purple;
-  font-size: 60px;
+  color: hotpink;
+  font-size: 55px;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
-  /* font-style: italic; */
   margin: 10px 20px;
   text-decoration: underline;
 }
@@ -121,14 +119,9 @@ img {
 }
 .title {
   font-size: 66px;
-  text-decoration: underline;
+  text-decoration: none;
   color: royalblue;
 }
-
-/* .container {
-  max-width: 1000px;
-  margin: 0 auto;
-} */
 
 .banner {
   height: 300px;
